@@ -1,0 +1,20 @@
+/* Scrollbar Styles */
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #11786B;
+    border-radius: 0.25em;
+}
+
+body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Universal styles */
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
